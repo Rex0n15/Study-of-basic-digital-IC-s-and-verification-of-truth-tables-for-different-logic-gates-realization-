@@ -61,8 +61,8 @@ Program:![Screenshot (18)](https://user-images.githubusercontent.com/130550796/2
 
 /*
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: rexon.jp
+RegisterNumber: 212222050048 
 */
 Logic symbol & Truthtable![Screenshot (16)](https://user-images.githubusercontent.com/130550796/231415218-a5fbe78d-0403-4d6d-beb5-17cb6ff82d46.png)
 
