@@ -57,19 +57,39 @@ Switch ON the main switch
 Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed.
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
-Program:![Screenshot (18)](https://user-images.githubusercontent.com/130550796/231415111-9a14aca8-de77-4e35-9764-dcf68d9b74d2.png)
 
-/*
+~~~
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
 Developed by: rexon.jp
 RegisterNumber: 212222050048 
-*/
-Logic symbol & Truthtable![Screenshot (16)](https://user-images.githubusercontent.com/130550796/231415218-a5fbe78d-0403-4d6d-beb5-17cb6ff82d46.png)
+~~~
+
+Program:
+~~~
+module logicalgates(a,b,o1,o2,o3,o4,o5,o6,o7);
+input a,b;
+output o1,o2,o3,o4,o5,o6,o7;
+and(o1,a,b);
+or(o2,a,b);
+nand(o3,a,b);
+nor(o4,a,b);
+xor(o5,a,b);
+xnor(o6,a,b);
+not(o7,a);
+endmodule
+~~~
+
+Logic symbol & Truthtable!
+![WhatsApp Image 2023-06-10 at 15 53 03](https://github.com/Rex0n15/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/130550796/c1344e5b-87b2-4342-8b44-157e06674148)
+
 
 RTL realization
-Output:![Screenshot (13)](https://user-images.githubusercontent.com/130550796/231415343-b65a6be8-1ecf-4c72-bbed-dac44305c0ac.png)
+![WhatsApp Image 2023-06-10 at 16 10 18](https://github.com/Rex0n15/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/130550796/c3a64d57-bcb9-48bd-9749-64859ba6ce55)
+
 
 RTL
+![WhatsApp Image 2023-06-10 at 16 10 31](https://github.com/Rex0n15/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/130550796/e4c6ecd7-98a4-4842-b50f-06fbf6defce7)
+
 
 Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
